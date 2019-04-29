@@ -27,11 +27,12 @@ let doStuff = function(data) {
     
    const template = 
     `
-   <h2> ${data[i].product} </h2>
-<img src="https://picsum.photos/200/200">
-   <p> Rating: ${data[i].rating} </p>
-<button> ${data[i].manufacturer}</button>`
-   ; 
+   <div class="card"> 
+  <h2> ${data[i].product} </h2>
+  <img src="https://picsum.photos/200/200">
+  <p> Rating: ${data[i].rating} </p>
+  <button> ${data[i].manufacturer}</button> 
+   </div>`; 
      
 
     $('#app').append( template ); 

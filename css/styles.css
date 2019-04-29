@@ -1,0 +1,14 @@
+#app {
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap:25px;
+  }
+  .card {
+border: 5px solid aqua;
+padding:20px;
+border-radius:20px;
+font-family:'Times New Roman', Sans-serif;
+  }
+  body {
+      background:black;
+  }
